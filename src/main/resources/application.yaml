@@ -1,0 +1,19 @@
+server.port: 8081
+
+spring:
+  application:
+    name: slot_booking_demo
+  datasource:
+    url: jdbc:postgresql://localhost:5432/schedulerdb
+    username: postgres
+    password: ${password}
+  sql:
+    init:
+      schema-locations:
+        - 'classpath:schema.sql'
+      data-locations:
+        - 'classpath:data.sql'
+      mode: ALWAYS
+
+#количество дней для создания диапазонов свободного времени в таблице availability_rules
+horizon: 10
