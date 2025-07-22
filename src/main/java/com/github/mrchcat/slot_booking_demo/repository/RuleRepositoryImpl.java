@@ -1,9 +1,9 @@
-package slot_booking_demo.repository;
+package com.github.mrchcat.slot_booking_demo.repository;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
-import slot_booking_demo.domen.AvailabilityRule;
+import com.github.mrchcat.slot_booking_demo.domen.AvailabilityRule;
 
 import java.sql.Time;
 import java.util.ArrayList;

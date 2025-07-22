@@ -1,6 +1,7 @@
-package slot_booking_demo.domen;
+package com.github.mrchcat.slot_booking_demo.domen;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.data.annotation.Id;
@@ -12,6 +13,7 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 @Table("event_templates")
+@Builder
 public class Event {
     @Id
     long id;

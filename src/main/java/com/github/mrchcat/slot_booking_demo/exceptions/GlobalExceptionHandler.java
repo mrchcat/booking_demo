@@ -1,4 +1,4 @@
-package slot_booking_demo.exceptions;
+package com.github.mrchcat.slot_booking_demo.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.ErrorResponse;

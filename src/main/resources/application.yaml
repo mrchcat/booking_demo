@@ -6,7 +6,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/schedulerdb
     username: postgres
-    password: ${password}
+    password: Inushing1980
   sql:
     init:
       schema-locations:

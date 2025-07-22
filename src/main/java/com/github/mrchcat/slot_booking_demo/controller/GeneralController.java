@@ -1,4 +1,4 @@
-package slot_booking_demo.controller;
+package com.github.mrchcat.slot_booking_demo.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -9,13 +9,13 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
-import slot_booking_demo.domen.AvailableTime;
-import slot_booking_demo.domen.Booking;
-import slot_booking_demo.domen.Event;
-import slot_booking_demo.dto.BookingRequest;
-import slot_booking_demo.repository.AvailableTimeRepositoryImpl;
-import slot_booking_demo.repository.BookingRepository;
-import slot_booking_demo.repository.EventRepository;
+import com.github.mrchcat.slot_booking_demo.domen.AvailableTime;
+import com.github.mrchcat.slot_booking_demo.domen.Booking;
+import com.github.mrchcat.slot_booking_demo.domen.Event;
+import com.github.mrchcat.slot_booking_demo.dto.BookingRequest;
+import com.github.mrchcat.slot_booking_demo.repository.AvailableTimeRepositoryImpl;
+import com.github.mrchcat.slot_booking_demo.repository.BookingRepository;
+import com.github.mrchcat.slot_booking_demo.repository.EventRepository;
 
 import java.util.List;
 import java.util.NoSuchElementException;

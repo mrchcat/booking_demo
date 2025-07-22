@@ -1,4 +1,4 @@
-package slot_booking_demo.dto;
+package com.github.mrchcat.slot_booking_demo.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 

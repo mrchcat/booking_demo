@@ -1,13 +1,13 @@
-package slot_booking_demo.repository;
+package com.github.mrchcat.slot_booking_demo.repository;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
-import slot_booking_demo.domen.AvailableTime;
-import slot_booking_demo.domen.Booking;
-import slot_booking_demo.domen.Event;
-import slot_booking_demo.dto.BookingRequest;
+import com.github.mrchcat.slot_booking_demo.domen.AvailableTime;
+import com.github.mrchcat.slot_booking_demo.domen.Booking;
+import com.github.mrchcat.slot_booking_demo.domen.Event;
+import com.github.mrchcat.slot_booking_demo.dto.BookingRequest;
 
 import java.sql.Timestamp;
 import java.time.LocalDateTime;

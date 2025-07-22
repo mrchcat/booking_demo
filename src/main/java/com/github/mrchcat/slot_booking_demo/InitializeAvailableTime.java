@@ -1,13 +1,13 @@
-package slot_booking_demo;
+package com.github.mrchcat.slot_booking_demo;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;
-import slot_booking_demo.domen.AvailableTime;
-import slot_booking_demo.repository.AvailableTimeRepositoryImpl;
-import slot_booking_demo.repository.RuleRepositoryImpl;
+import com.github.mrchcat.slot_booking_demo.domen.AvailableTime;
+import com.github.mrchcat.slot_booking_demo.repository.AvailableTimeRepositoryImpl;
+import com.github.mrchcat.slot_booking_demo.repository.RuleRepositoryImpl;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

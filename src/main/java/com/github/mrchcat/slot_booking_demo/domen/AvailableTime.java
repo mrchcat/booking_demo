@@ -1,4 +1,4 @@
-package slot_booking_demo.domen;
+package com.github.mrchcat.slot_booking_demo.domen;
 
 
 import lombok.AllArgsConstructor;
